@@ -9,4 +9,5 @@ for i in range(N):
 if X == sum:
     print("Yes")
 else:
-    print("No")
+    print("No")#
+
