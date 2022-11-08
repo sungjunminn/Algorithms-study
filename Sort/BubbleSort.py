@@ -8,6 +8,11 @@ def bubblesort(alist):
     return alist
 
 
+alist = [6, 5, 4, 3, 2, 1]
+bubblesort(alist)
+for i in range(len(alist)):
+    print("%d" %alist[i], end=" ")
+
 class unit_test(unittest.TestCase):
     def test(self):
         self.assertEqual([1, 2, 3, 4, 5, 6], bubblesort([4, 6, 1, 3, 5, 2]))
