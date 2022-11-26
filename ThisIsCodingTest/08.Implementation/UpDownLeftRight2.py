@@ -2,6 +2,7 @@ N = int(input())
 plans = list(map(str, input().split()))
 X, Y = 1, 1
 
+# 왼, 오, 위, 아래
 for i in plans:
     if i == 'L' and Y > 1:
         Y -= 1
