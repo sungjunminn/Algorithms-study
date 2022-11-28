@@ -2,6 +2,7 @@ N = int(input())
 plans = list(map(str, input().split()))
 X, Y = 1, 1
 
+# L, R, U, D에 따른 이동 방향
 for i in plans:
     if i == 'L' and Y > 1:
         Y -= 1
