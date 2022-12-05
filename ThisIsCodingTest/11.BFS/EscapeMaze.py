@@ -7,13 +7,13 @@ for i in range(n):
     graph.append(list(map(int, input())))
 
 # 이동할 네 방향 정의(상, 하, 좌, 우)
-dx = [0, 0, -1, 1]
-dy = [1, -1, 0, 0]
+dx = [-1, 1, 0, 0]
+dy = [0, 0, -1, 1]
 
-def bfs(x,y):
+def bfs(x, y):
     # 큐(Queue) 구현을 위해 deque 라이브러리 사용
     queue = deque()
-    queue.append((x,y))
+    queue.append((x, y))
     # 큐가 빌 때까지 반복
     while queue:
         x, y = queue.popleft()
