@@ -8,8 +8,10 @@ end = 0
 
 # start를 차례대로 증가시키며 반복
 for start in range(n):
-    while interval_sum < m and end < n: # end를 가능한 만큼 이동시키기
-        interval_sum += data[end] # end가 오른쪽으로 옮겨지면, 구간합 값은 구간합에서 end 값을 더한 값이 된다.
+    # end를 가능한 만큼 이동시키기
+    while interval_sum < m and end < n:
+        # end가 오른쪽으로 옮겨지면, 구간합 값은 구간합에서 end 값을 더한 값이 된다.
+        interval_sum += data[end]
         end += 1
     # 부분합이 m일 때 카운트 증가
     if interval_sum == m:
