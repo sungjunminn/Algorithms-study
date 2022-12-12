@@ -1,16 +1,16 @@
-#sum()
+# sum()
 result = sum([1, 2, 3, 4, 5])
 print(result)
 
-#min()
+# min()
 result = min(7, 3, 5, 2)
 print(result)
 
-#max()
+# max()
 result = max(7, 3, 5, 2)
 print(result)
 
-#eval()
+# eval()
 result = eval('(3 + 5) * 7')
 print(result)
 
