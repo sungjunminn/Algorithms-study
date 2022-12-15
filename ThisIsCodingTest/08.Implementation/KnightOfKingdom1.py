@@ -2,7 +2,7 @@ data = input()
 column = int(chr(ord(data[0]) - 48))
 row = int(data[1])
 
-# 방향 
+# 방향
 dx = [-2, -2, 2, 2, -1, 1, -1, 1]
 dy = [-1, 1, -1, 1, -2, -2, 2, 2]
 count = 0
