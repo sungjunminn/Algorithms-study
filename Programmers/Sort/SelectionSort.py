@@ -9,7 +9,7 @@ def selectionSort(input):
         # test against elements after i to find the smallest
         while j < len(input):
             if(input[j] < input[idx_min]):
-                # found new minimum; remember its index
+                # found new minimum(remember its index)
                 idx_min = j
             j = j + 1
 
