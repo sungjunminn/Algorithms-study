@@ -29,6 +29,5 @@ if __name__ == '__main__':
 
 # for i in solution([3, 4, 1], 8):
 #     print(i, end=" ")
-#
-#
+
 print(solution([3, 4, 1], 8))
