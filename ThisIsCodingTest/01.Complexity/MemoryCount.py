@@ -16,7 +16,7 @@ for i in range(len(array)):
     array[i], array[min_index] = array[min_index], array[i]
 
 end_time = time.time()
-print('선택 정렬 시간측정:', end_time - start_time)
+print('선택 정렬 시간 측정:', end_time - start_time)
 
 sort_start_time = time.time()
 
