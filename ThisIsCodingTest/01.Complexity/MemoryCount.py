@@ -5,7 +5,7 @@ array = []
 for _ in range(10000):
     array.append(randint(1, 100))
 
-start_time = time.time() #
+start_time = time.time()
 
 for i in range(len(array)):
     min_index = i
