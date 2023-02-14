@@ -2,7 +2,7 @@ from random import randint
 import time
 
 array = []
-for _ in range(10000):
+for _ in range(10000): #
     array.append(randint(1, 100))
 
 start_time = time.time() #
